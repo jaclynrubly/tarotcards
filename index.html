@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+ 	<meta charset="UTF-8">
+  	<link rel="stylesheet" href="stylesheet.css" />
+	  <!--JQuery script tag has to come before the JS otherwise it won't run.-->
+	  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+  crossorigin="anonymous"></script>
+  	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  	<script src="deal.js"></script>
+  	<script src="deck.js"></script>
+  	<!--meta shit-->
+  	<title>Tarot Project</title>
+	<!--favicon in href... after "image" type in either "/ico" or "/png"-->
+	<link rel="icon" type="image/png" href="images/favicon.png">
+	<meta name="description" content="Tarot card readings, courtesy of JavaScript.">
+	<meta name="keywords" content="tarot, javascript">
+	<meta name="author" content="Patricia Realini">
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+		</style>
+
+</head>
+<body>
+	<div class="backdrop">
+		<div class="frame1">
+			<h1>Past, Present & Future</h1>
+			<h2>Instructions: Click on the deck to draw</h2>
+
+			<div class="buttons">
+				<img src="images/deckback.jpg" alt="deck of cards" id="deal">
+				<br>
+				<input type="button" value="SHUFFLE" id="shuffle" />
+			</div>
+			<div id="hand">
+					<h2>Your Reading: </h2>
+			</div>
+			<div id="reading">
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>

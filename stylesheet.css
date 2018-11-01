@@ -1,0 +1,85 @@
+/*
+* Colors 
+* 
+* 
+*/
+html, body, h1, h2, h3, h4, p, div, ul, li, a {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	font-size: 100%
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-weight: 200;
+	list-style: none;
+	text-decoration: none;
+}
+/**/
+@font-face {
+
+}
+/* Responsive */
+@media screen and (min-width:400px)  {
+
+}
+body {
+	/*background: rgb(95, 40, 91);*/
+	background: url(images/background/galaxy.jpg);
+}
+
+.backdrop {
+	width: 100vw;
+	height: 100vh;
+	/*
+	background: url(images/background/starrynightsky.jpg), black;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: fixed;
+	*/
+}
+#logo {
+	text-align: center;
+}
+h1, h2 {
+	text-align: center;
+	font-family: 'Berkshire Swash', cursive;
+	font-weight: 100;
+	color: #ffffff;
+	margin-right: 25%;
+	margin-left: 25%;
+	padding-top: 10px;
+}
+#deal:hover {
+	cursor: url(), auto;
+}
+.buttons img, .buttons input {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+}
+.buttons img {
+	height: 200px;
+}
+.buttons input {
+	margin-bottom: 20px;
+	background-color: #FFF;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-weight: 100;
+	font-size: 20px;
+	color: #000000;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: 2px solid black;
+}
+#hand {
+	text-align: center;
+}
+#hand img {
+	margin: 20px;
+	height: 275px;
+	border: 15px solid rgb(255, 255, 255);
+	border-radius: 10px;
+}
+.orientationDown {
+	transform: rotate(180deg);
+}
